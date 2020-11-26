@@ -1,18 +1,12 @@
 {
   "apiOriginAllow": {},
   "authEndpoint": "/broadcasting/auth",
-  "authHost": "http://localhost",
+  "authHost": "AUTH_HOST",
   "clients": [],
-  "database": "LARAVEL_ECHO_SERVER_DB",
   "databaseConfig": {
     "redis": {
       "host": "REDIS_HOST",
-      "port": "REDIS_PORT",
-      "password": "REDIS_PASSWORD",
-      "keyPrefix": "REDIS_PREFIX",
-      "options": {
-        "db": "REDIS_DB"
-      }
+      "port": "REDIS_PORT"
     },
     "sqlite": {
       "databasePath": "/database/laravel-echo-server.sqlite"
